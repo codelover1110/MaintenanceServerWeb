@@ -1,0 +1,541 @@
+.auth {
+    margin-top: 20vh;
+    max-width: 500px;
+    margin: 20vh auto;
+}
+
+.btn-log {
+    position: absolute;
+    right: 154px;
+    top: 12px;
+    padding: 4px;
+}
+.btn-report {
+    position: absolute;
+    right: 280px;
+    top: 12px;
+    padding: 4px;
+}
+
+.shop-navbar {
+    margin-top: 5vh;
+    background-color: rgba(84, 130, 53, 1);
+}
+
+.data-table {
+    width: 72%;
+    margin: auto;
+}
+
+/* dashboard page  */
+.phone-images {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+
+.phone-image {
+    width: 70%;
+    height: 70%;
+}
+
+.phone-image-a {
+    width: 60%;
+    margin-top: 11px;
+}
+
+.dashboard-container {
+    text-align: center;
+}
+
+.item-image-container {
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+}
+
+.dashborad-title {
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgba(84, 130, 53, 1);
+    border-radius: 10px;
+    background-color: rgba(84, 130, 53, 1);
+    padding: 20px;
+}
+
+.dashborad-title-content {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.dashboard-title-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.dashboard-item-container {
+    margin-right: 50px;
+}
+
+/* shopdata page  */
+.shop-image {
+    border: 3px solid rgb(152, 38, 193);
+    margin-right: 40px;
+    width: 100px;
+    height: 40px;
+}
+
+.info-image {
+    width: 100px;
+    height: 40px;
+}
+
+table tr td {
+    vertical-align: middle !important;
+    padding: 0;
+    text-align: center;
+}
+
+.data-table-shop {
+    width: 100%;
+    margin: auto 20px;
+}
+
+.imgPreview {
+    max-height: 432px;
+    max-width: 588px;
+    border: 5px solid #ced4da;
+    margin-top: 60px;
+}
+
+.addedit-form {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #cccc;
+    padding: 53px 100px;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .shop-navbar {
+        margin-top: 0vh;
+    }
+
+    #navbarSupportedContent {
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 999px) {
+    .shop-navbar {
+        display: none;
+    }
+
+    .maintenance-container {
+        display: block;
+    }
+}
+
+@media (min-width: 1000px) {
+    .shop-navbar {
+        display: block;
+    }
+
+    .maintenance-container {
+        display: none;
+    }
+}
+
+.app-container nav {
+    min-width: 1000px;
+    /* display: none */
+}
+
+/* shopdata global styles */
+
+a {
+    cursor: pointer;
+}
+
+.app-container {
+    min-height: 350px;
+}
+
+.btn-delete-user {
+    width: 40px;
+    text-align: center;
+    box-sizing: content-box;
+    margin-left: 0;
+}
+
+.nav-item {
+    color: red;
+}
+
+
+
+.adminpage-container {
+    text-align: center;
+}
+
+.autentication-container {
+    background: #ccc;
+}
+
+tbody {
+    display: block;
+    height: 600px;
+    overflow: auto;
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    /* even columns width , fix width of table too*/
+}
+
+thead {
+    width: calc(100% - 1em)
+        /* scrollbar is average 1em/16px width, remove it from thead width */
+}
+
+table {
+    width: 400px;
+}
+
+.edit-button {
+    margin-left: 6px;
+    width: 91px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.logo-image {
+    width: 47px;
+    padding-left: 3px;
+}
+
+.title-text {
+    color: rgba(84, 130, 53, 1);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+.flex-space-around-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(84, 130, 53, 1);
+    padding: 20px;
+    border: 2px solid rgba(84, 130, 53, 1);
+    border-radius: 20px;
+}
+
+.search-input {
+    height: 40px;
+    width: 292px;
+    padding: 20px;
+    border: 2px solid rgba(84, 130, 53, 1);
+    border-radius: 20px;
+    outline: none;
+}
+
+.search-button {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+tr {
+    word-wrap: break-word
+}
+
+.cancel-button {
+    /* border: 1px solid blue */
+}
+
+.form-button-group {
+    display: flex;
+    align-items: center;
+}
+
+.btn-link {
+    border: 1px solid #ccc;
+    background: #ccc;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+thead button {
+    border: 0;
+    border-radius: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+    padding: 0.5em;
+    margin-bottom: 1px;
+}
+
+thead button.ascending::after {
+    content: '👇';
+    display: inline-block;
+    margin-left: 1em;
+}
+
+thead button.descending::after {
+    content: '☝️';
+    display: inline-block;
+    margin-left: 1em;
+}
+
+tbody td {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:hover {
+    background-color: #eee;
+}
+
+
+
+/* =================================== */
+.tranform-none {
+    text-transform: none;
+}
+
+
+
+
+/* ======================================= */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+    position: fixed;
+    background: white;
+    width: 80%;
+    height: 80vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    /* display: flex; */
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: calc(100% - 50px);
+    display: table;
+    margin: auto;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+
+.cancel-button-modal {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.meter-add-container {
+    max-height: 650px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.meter-image-container {
+    text-align: center;
+}
+
+.go-navigate {
+    margin: 12px;
+    border: none;
+    color: #ccc;
+}
+
+.go-navigate a {
+    color: #000;
+}
+
+.extraClass {
+    font-size: 15px !important;
+    pointer-events: auto !important;
+    max-width: 300px;
+    ;
+}
+
+
+/* .extraClass:hover {
+    visibility: visible !important;
+    opacity: 1 !important;
+} */
+
+.link-button {
+    /* border: none;
+    background: #ccc;
+    width: 50%; */
+}
+
+
+.extraClass-modal {
+    font-size: 12px !important;
+    pointer-events: auto !important;
+    max-width: 200px;
+    ;
+}
+
+
+/* .extraClass-modal:hover {
+    visibility: visible !important;
+    opacity: 1 !important;
+} */
+
+textarea {
+    width: 80%;
+    margin-top: 10%;
+    padding: 15px;
+    height: 150px;
+    max-height: 150px;
+
+}
+
+.note-modal-main {
+    position: fixed;
+    background: white;
+    width: 30%;
+    height: 40vh;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.form-group input[type=checkbox] {
+    opacity: 1;
+    -webkit-appearance: button;
+    height: auto;
+    width: auto;
+    position: relative;
+    margin-left: 10px;
+}
+
+.table-hover table {
+    min-width: 1000px;
+}
+
+.container .row {
+    min-width: 1000px;
+}
+
+.data-table-shop .addedit-form {
+    min-width: 650px;
+}
+
+.maintenance-container {
+    min-width: 1000px;
+    margin-top: 5vh;
+    background-color: rgba(84, 130, 53, 1);
+}
+
+
+.navbar-ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 58px;
+    height: 100px;
+    font-size: 23px;
+    background-color: rgba(84, 130, 53, 1);
+}
+
+.nav-item-link {
+    padding-right: 33px;
+}
+
+.nav-item-link {
+    color: #ffffff;
+}
+
+.valid-select {
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-class {
+    border: 2px solid;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.report-button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 1;
+    font-size: 14px;
+    margin-left: 10px;
+    box-shadow: 1px 1px 4px 0px black;
+    padding: 0px 9px;
+    min-width: 140px;
+    justify-content: center;
+    height: 45px;
+}
+
+.report-button label {
+    margin: 0;
+}
+
+.report-button a {
+    color: black;
+}
